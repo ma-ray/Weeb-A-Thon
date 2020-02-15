@@ -1,10 +1,10 @@
 // Object for the anime!
 public class Anime {
-    String name, type, description;
-    BufferedImage object;
-    double score;
-    String genres[];
-    int AkScore;
+    private String name, type, description;
+    private BufferedImage object;
+    private double score;
+    private String genres[];
+    private int AkScore;
 
     public Anime(String name, BufferedImage object, double score, String genres[], String description,String type,int AkScore) {
         this.name = name;
